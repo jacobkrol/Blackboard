@@ -1,0 +1,198 @@
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/open-sans-regular.woff");
+}
+
+html {
+    background: url(../images/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+header {
+    padding: 40px;
+}
+
+a {
+    display: inline-block;
+}
+
+#uic-logo {
+    height: 35px;
+    width: auto;
+}
+
+#bb-logo {
+    height: 25px;
+    width: auto;
+}
+
+#login {
+    width: 90%;
+    padding: 5px 0;
+    border-radius: 6px;
+    border: none;
+    background: rgb(0,178,276);
+    color: white;
+    font-size: 5pt;
+}
+
+p {
+    font-size: 5pt;
+    width: 82%;
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+    line-height: 1.75;
+    hyphens: manual;
+}
+
+h1 {
+    font-size: 11pt;
+    font-weight: normal;
+    width: 100%;
+    margin: 5px 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 5pt;
+    font-weight: bold;
+    width: 100%;
+    color: white;
+    line-height: 1;
+}
+
+p > a {
+    color: inherit;
+    display: inline;
+}
+
+button:focus {
+    outline: none;
+}
+
+.center-container {
+    text-align: center;
+}
+
+.container-black {
+    background-color: rgba(25,25,25,0.9);
+}
+
+.container-gray {
+    background-color: rgba(255,255,255,0.9);
+}
+
+.content-row {
+    padding: 0 40px;
+}
+
+.box-pad {
+    padding: 10px;
+}
+
+.box-third {
+    max-width: 180px;
+    height: 100%;
+    overflow: hidden;
+    padding: 10px;
+    margin: 0 15px;
+}
+
+.content-dot-container {
+    display: inline-block;
+}
+
+img {
+    width: 100%;
+}
+
+.app {
+    width: 50px;
+    margin: 0 2px;
+}
+
+.content-row {
+    text-align: center;
+}
+
+.vert-outer {
+    display: table;
+}
+
+.vert-inner {
+    display: table-cell;
+    vertical-align: center;
+}
+
+#panel-1 {
+    background: rgba(25,25,25,0.8);
+    color:white;
+}
+
+#panel-2 {
+    background: rgba(240,240,240,0.8);
+    color: black;
+    text-align:left;
+}
+
+#panel-3 {
+    overflow: visible;
+    padding: 0 !important;
+}
+
+#button-box-parent {
+    text-align: center;
+}
+
+#button-box {
+    background: rgba(25,25,25,0.8);
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+#button-box img {
+    height: 30px;
+    width: auto;
+}
+
+#button-box a {
+    display: block;
+}
+
+.button-col {
+    display: inline-block;
+}
+
+.dot {
+    width: 4px;
+    height: 4px;
+    border: 1px solid white;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 0 2px;
+}
+
+.dot.closed {
+    background: white;
+}
+
+.dot.hidden {
+    visibility: hidden;
+}
+
+.scroll-dots {
+    padding-bottom: 20px;
+}
