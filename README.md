@@ -8,3 +8,5 @@ learned the importance of CSS prefixes, flex-box as an alternative to inline-blo
 formalities.
 
 Published at: https://jacobkrol.github.io/Blackboard/
+
+*Please note ad-blockers must be disabled to view entire content*
